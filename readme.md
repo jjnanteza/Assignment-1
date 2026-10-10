@@ -43,4 +43,9 @@ The Projects page describes
 3. A Python financial-literacy game.
 4. A Python event management system using object-oriented programming.
 
+# GitHub repository  
+- https://github.com/jjnanteza/Assignment-1 
+
+# Live portfolio site
+-  https://jjnanteza.github.io/Assignment-1/ 
 Janice Nanteza, October 9th 2026
