@@ -43,4 +43,4 @@ The Projects page describes
 3. A Python financial-literacy game.
 4. A Python event management system using object-oriented programming.
 
-[Janice Nanteza], [October 9th 2026]
+Janice Nanteza, October 9th 2026
