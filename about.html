@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Linking all style sheets-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" type="text/css" href="desktop.css" media="only screen and (min-width:961px)">
+    <title>About Me</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>About Me</h1>
+            <nav> 
+                <!--Navigation to all four pages-->
+                <a href="home.html">Home</a>
+                <a href ="about.html">About</a>
+                <a href ="projects.html">Projects</a>
+                <a href ="contact.html">Contact</a>
+                
+            </nav>
+        </header>
+        <article>
+            <!--left column for video and introduction to be floated left-->
+            <section id="left-column">
+                <h2>Who I am</h2>
+                <img id="photo2" src="me image.jpg", alt="Photo of Janice Nanteza">
+                <p>I am studying IT Networking and Security at Ontario Tech University, with the hope of pursing a career in Cybersecurity</p>
+                <!--Video with controls and a poster image-->
+                <video id="video" controls preload="auto" poster ="posterforvid.jpeg">
+                    <source src ="Videohtml.mp4" type ="video/mp4">
+                </video>
+                <br>
+                <!--Button for playpause function in script-->
+                <button onclick="playpause()">Play or Pause the video</button>  
+                   
+            </section>
+            <!--right column for skills to be displayed beside the-->
+            <section id="right-column"> 
+              <h2>Skills</h2>
+                <ul> 
+                    <li>Networking Fundementals</li>
+                    <li>Python Programming</li>
+                    <li>Leadership and Mentorship</li>
+                    <li>Communication</li>
+                    <li>Team collaboration</li>
+                    <li>Problem Solving</li>
+                    <li>Customer Service</li>
+                </ul>
+            </section>
+        </article>
+
+        <footer>
+            <address>Email:janice.nanteza@ontariotechu.net</address>
+            <p>&copy 2026 by Janice Nanteza</p>
+        </footer>
+    </div>
+</body>
+<script> // Button creation
+    var myVideo = document.getElementById("video");
+    function playpause() 
+    {
+        if(myVideo.paused) myVideo.play()
+        else myVideo.pause()
+    }
+</script>
+</html>

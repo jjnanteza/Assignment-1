@@ -1,0 +1,246 @@
+/* CSS for Desktop min 961px*/
+@charset "UTF-8";
+/*Apply border-box sizing globally*/
+*{
+    box-sizing:border-box;
+}
+/*Style main page wrapper*/
+#wrapper
+{
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+    margin:0;
+    padding-bottom:80px;
+
+
+}
+/*Style the page header*/
+header
+{
+    background-color: #0A192F;
+    padding:10px;
+    height: 90px;
+    text-align:center;
+}
+
+/*Page title's size, color, and spacing editted to keep them visbile on the background*/
+header h1
+{
+    font-size:28px;
+    color: #fdfbf7;
+    margin:10px;
+}
+
+/*Style for navigation links*/
+nav a
+{
+    color: #d4af37;
+    margin: 3px;
+    padding: 8px;
+}
+
+/*Hover feature for navigation links*/
+nav a:hover
+{
+    color:#fdfbf7;
+    background-color: #6b1d2f;
+}
+/*Set the default values for the site*/
+body
+{
+    background-color:#FDFBF7;
+    color:#0A192F;
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Adding room to the main article content and floated content with the aritcle area*/
+article
+{
+
+    padding: 8px;
+    overflow:hidden;
+
+}
+/*Float left column to the left*/
+#left-column
+{
+    float:left;
+    width:45%;
+    padding: 10px
+
+}
+/*Float right column to the right*/
+#right-column
+{
+    float:right;
+    width:45%;
+    padding: 10px 10px 10px 30px;
+
+}
+/*Make the home page font larger*/
+#homepar
+{
+    font-size:35px;
+}
+
+/*Add style to the second headers*/
+h2
+{
+    color: #0a192f;
+    border-bottom: 2px solid #8c4a28;
+    padding-bottom: 5px;
+}
+
+/*Keep images from excedding their containing element*/
+img
+{
+    max-width: 100%;
+    height:auto;
+}
+/*Size and decorate the main profile image*/
+#photo
+{
+    width: 400px;
+    padding: 4px;
+    border: 4px solid #d4af37;
+    border-radius: 25%;
+}
+/*Sizing image on about me page*/
+#photo2
+{
+    width: 20%;
+    padding: 4px;
+    border:5px solid #d4af37;
+    border-radius: 50%;
+}
+
+/*Make emebeded video fit the contetn width and add a border*/
+#video
+{
+    width: 90%;
+    height: auto;
+    border: 6px solid #1b3b2b;
+
+}
+/*Style the video button*/
+button
+{
+    background-color: #6b1d2f;
+    border:none;
+    color:#fdfbf7;
+    padding: 8px 12px;
+    margin-top: 8px;
+
+}
+/*Hover function to the video button*/
+button:hover
+{
+    background-color: #d4af37;
+    color: #0A192f;
+}
+/*Adding padding so list markers and text are indented*/
+ul 
+{
+    padding-left: 20px;
+}
+/*Add vertical spacing between list items to improve readability*/
+li
+{
+    margin-bottom: 8px;
+}
+/*Apply angled gradient to the projects page section*/
+.pagepr
+{
+    background:linear-gradient(122deg, #d4af37 0%,#6b1d2f 50% ,#0a192f 100%);
+    padding: 10px;
+}
+/*Creating boxes for each project*/
+.box
+{
+    background-color:#1b3b2b;
+    color: #fdfbf7;
+    width: 22%;
+    height: 400px;
+    padding: 10px;
+    border:2px solid #8c4a28;
+    margin: 1.5%;
+    text-align: center;
+    float: left;
+
+}
+/*Improve paragraph readability*/
+.box p
+{
+    line-height: 1.5;
+    text-align:left;
+}
+/*Applied a hover to the box*/
+.box:hover
+{
+    background-color:#6b1d2f;
+    border-color: #d4af37;
+}
+/*Apply style to the form section of the contact me*/
+form
+{
+    border: 1px solid #8c4a28;
+    /* Standard linear gradient*/
+    background: linear-gradient(180deg, #8c4a28 0%, #6b1d2f 100%);
+    padding:50px;
+}
+/*Edit text and label color to make it visbile on the dark gradient*/
+form h2, form label
+{
+    color:#fdfbf7
+}
+/*Giving input types cosnitent widths and spacing so they are easier to fill in.*/
+input[type="text"], input[type="email"], input[type="tel"], textarea
+{
+    width:80%;
+    padding: 6px;
+}
+/*Style form's submit and reset contorls*/
+input[type="submit"],input[type="reset"]
+{
+    background-color:#8c4a28;
+    color:#FDFBF7;
+    border:none;
+    width:auto;
+    padding:8px 18px;
+    cursor: pointer;
+    
+}
+/*Add a hover to the submit and reset buttons*/
+input[type="reset"]:hover
+{
+    background-color: #6b1d2f;
+    color: #fdfbf7;
+}
+input[type="submit"]:hover
+{
+    background-color: #6b1d2f;
+    color: #fdfbf7;
+}
+/*Style and postioning to the footer*/
+footer
+{
+    background-color:#0a192f;
+    color: #FDFBF7;
+    bottom:0;
+    left:0;
+    position: absolute;
+    width:100%;
+    height: 80px;
+    padding:13px;
+    text-align: center;
+    
+}
+/*Add a contrast to the email address field*/
+footer address 
+{
+    color:#d4af37;
+}
+
+
