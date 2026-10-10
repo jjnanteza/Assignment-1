@@ -1,6 +1,5 @@
-/* CSS for viewports up to 480px */
 @charset "UTF-8";
-
+/* CSS for viewports up to 480px */
 /*Apply border-box sizing globally*/
 *{
     box-sizing: border-box;

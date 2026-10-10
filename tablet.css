@@ -1,5 +1,5 @@
-/* CSS for Tablet viewports 481 px to 960px */
 @charset "UTF-8";
+/* CSS for Desktop min 961px*/
 /*Apply border-box sizing globally*/
 *{
     box-sizing: border-box;
